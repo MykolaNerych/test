@@ -7,6 +7,7 @@ const inc = ()=>setCount(porevState => porevState + 1)
 
   return (
     <div>
+        Test 1 branch
       {count}
       <button onClick={inc}>
         Inc
