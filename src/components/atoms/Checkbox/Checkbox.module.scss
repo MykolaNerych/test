@@ -1,0 +1,30 @@
+.filterField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.filterLabel {
+  font-weight: 600;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.checkboxField {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+
+  input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #764ba2;
+  }
+
+  label {
+    font-size: 0.95rem;
+    color: #333;
+    cursor: pointer;
+  }
+}
