@@ -7,10 +7,10 @@ import { FilmPage } from "@/pages/film";
 const App = () => {
   return (
     <SWRConfig>
-      <BrowserRouter>
+      <BrowserRouter basename="/test">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/film/:id" element={<FilmPage />} />
+           <Route path="/film/:id" element={<FilmPage />} />
         </Routes>
       </BrowserRouter>
     </SWRConfig>
